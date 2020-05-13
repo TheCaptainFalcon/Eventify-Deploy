@@ -3,7 +3,7 @@
 See the live demo: https://eventify-deploy.netlify.app/
 
 ### Event Navigation and Google Maps
-![](eventify.gif)
+![](Eventify.gif)
 
 ## Description:
 Eventify is an application built to showcase events occurring in the top 3 most populated cities in Georgia and being able to display those event locations on Google Maps.
