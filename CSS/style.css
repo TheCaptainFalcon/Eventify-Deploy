@@ -1,0 +1,190 @@
+#map {
+    height: 100vh;
+  }
+
+  html{
+    height: 100%;
+  }
+  
+  body{
+    font-family: sans-serif;
+    /* font-style: italic; */
+    text-transform: uppercase;
+    background-color: #262626;
+    color: #262626;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-width: 100%;
+    /* display: grid; */
+    text-transform: capitalize;
+  }
+  
+
+
+/* .container{
+  display: flex;
+
+} */
+
+
+/* .nonBackground{
+  clear: none;  */
+  /* display: grid; */
+  /* min-width: 75px;  
+} */
+
+  #particles-js{
+    /* grid-area: main; */
+    background: #262626;
+    height: 100vh;
+    z-index: 9999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+
+  .title{
+    /* grid-area: title1; */
+    position: absolute;
+    top: 35%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .title2{
+    /* grid-area: title2; */
+    position: absolute;
+    top: 55%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+
+  .citybtns{
+    /* grid-area: citybtns; */
+    position: absolute;
+    top: 60%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+
+.dusty-grass-gradient {
+    background-color: #39ff14;
+    color: #262626;  
+    background-image: none;
+}
+
+  .btn{
+    width: fit-content;
+  }
+
+#navbarElement{
+  /* grid-area: navbar; */
+  border-bottom-right-radius: 100%;
+  /* max-height: 50vh; */
+  /* clear: none; */
+  background: linear-gradient(45deg, #262626, #262626 15%, #39ff14);
+  /* display: flex; */
+  /* flex-flow: row; */
+  overflow: auto; 
+  justify-content: start;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100vw;
+  min-width: 50px;
+  overflow: auto;
+  /* flex-shrink: 1; */
+
+
+}
+
+  #navBtn{
+    border-radius: 50%;
+    flex-shrink: 1;
+    /* min-width: 25px; */
+  }
+
+  /* .form-inline{
+min-width: 75px;  
+} */
+
+#navBrand{
+  color: #39ff14;
+  /* flex-shrink: 4; */
+  /* min-width: 25px; */
+}
+
+#atlBtn{
+  border-radius: 60%;
+  /* flex-shrink: 4;
+  min-width: 25px; */
+}
+
+#sandyBtn{
+  border-radius: 60%;
+  /* flex-shrink: 4;
+  min-width: 25px; */
+}
+
+#savannahBtn{
+  border-radius: 60%;
+}
+
+/* ---------------------------ATL Page_____________________________ */
+
+.container{
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg{
+  position: relative;
+  top: 25%;
+  width: 50vw;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.panel{
+  margin-bottom: 20px;
+  margin-top: 170px;
+  overflow: auto;
+  width: 50vw;
+  background-color: #fff;
+  color: #39ff14;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
